@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+/app
+  /layout.tsx           // Configuração global de Wagmi/RainbowKit
+  /page.tsx             // A página principal do seu DApp
+  /api                  // Opcional: para APIs internas (se necessário)
+/components
+  /WalletConnectButton.tsx // Botão de conexão (RainbowKit)
+  /TokenInfo.tsx           // Exibe preço, taxa, etc.
+  /BuySellTokens.tsx       // Formulários de compra/venda
+  /WithdrawEth.tsx         // Componente de saque
+  /CreateTaskForm.tsx      // Formulário de criação de tarefa
+  /TaskList.tsx            // Componente para listar e interagir com tarefas
+/hooks
+  /useBabyCoinToken.ts     // Hook customizado para interagir com BabyCoinToken
+  /useBabyCoinTasks.ts     // Hook customizado para interagir com BabyCoinTasks
+/lib
+  /wagmi.ts               // Configuração de Wagmi e RainbowKit
+  /abis.ts                // Exporta os ABIs dos seus contratos (importados dos artifacts)
+/public                   // Imagens, ícones, etc.
+/styles                   // Arquivos CSS (Tailwind CSS é uma ótima opção para dApps)
