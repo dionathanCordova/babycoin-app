@@ -54,3 +54,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
   /abis.ts                // Exporta os ABIs dos seus contratos (importados dos artifacts)
 /public                   // Imagens, ícones, etc.
 /styles                   // Arquivos CSS (Tailwind CSS é uma ótima opção para dApps)
+
+
+todo 
+Melhorar o log que aparece ao realizar compra, mudar para toast

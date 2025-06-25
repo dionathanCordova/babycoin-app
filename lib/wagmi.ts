@@ -3,8 +3,8 @@ import { getDefaultConfig } from '@rainbow-me/rainbowkit';
 import {
   mainnet,
   sepolia,
-  goerli, // Goerli está sendo descontinuada, mas é um exemplo
-  hardhat, // Para o seu Anvil local
+  // goerli, // Goerli está sendo descontinuada, mas é um exemplo
+  // hardhat, // Para o seu Anvil local
 } from 'wagmi/chains';
 
 // Para o Anvil, você pode adicionar a chain manualmente se ela não estiver no wagmi/chains
@@ -25,7 +25,7 @@ const anvil = {
 
 export const config = getDefaultConfig({
   appName: 'BabyCoin DApp',
-  projectId: 'YOUR_PROJECT_ID', // Crie um no WalletConnect Cloud: cloud.walletconnect.com
+  projectId: '436f76687e8acd9b17b0b8910fe8a613', // Crie um no WalletConnect Cloud: cloud.walletconnect.com
   chains: [
     anvil, // Adicione seu Anvil local aqui
     mainnet,
